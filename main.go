@@ -1,7 +1,8 @@
 package main
 
-import "github.com/rajcspsg/mastering_go/chapter3/examples"
+import "github.com/just_now/go1/examples"
+import "fmt"
 
 func main() {
-	examples.ConstantsDemo()
+	fmt.Println(examples.Hello())
 }
