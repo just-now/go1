@@ -1,8 +1,8 @@
 package main
 
-import "github.com/just_now/go1/examples"
+import "github.com/just_now/go1/hello"
 import "fmt"
 
 func main() {
-	fmt.Println(examples.Hello())
+	fmt.Println(hello.Hello())
 }
